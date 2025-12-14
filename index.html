@@ -1,99 +1,46 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-
 </head>
 <body>
-    <table border="5" width="100%">
-         <h1><center>OFPPT ISTAG YM Rabat</center></h1>
-  <h2><center>Emploi du Temps - Groupe DEV102</center></h2>
-  <p><center><strong>Niveau :</strong> TS   <strong>Masse horaire/semaine :</strong> 20h   <strong>Date :</strong> 15/09/2025</center></p>
-
-    <tr>
-      <th></th>
-      <th>08:30</th>
-      <th>11:00</th>
-      <th>11:00</th>
-      <th>13:00</th>
-      <th>13:30</th>
-      <th>16:00</th>
-      <th>16:00</th>
-      <th>18:30</th>
-    </tr>
-    <tr>
-        <tr>
-            <th>lundi</th>
-             <td></td>
-             <td></td>
-             <td></td>
-             <td></td>
-             <td colspan="2"><center>M102/EGTSA106<br>Elmamouny hicham<br>Salle num1</center></td>
-             <td colspan="2"></td><center>M102/EGTSA106<br>Elmamouny hicham<br>Salle num1</center></td>
-
-
-        </tr>
-        <tr>
-            <th>Mardi</th>
-             <td colspan="2"><center>M104<br>El Harrak Chrifa<br>AT DEV</center></td>  
-             <td colspan="2"><center>M104<br>El Harrak Chrifa<br>AT DEV</center></td>
-             <td></td>
-             <td></td>
-             <td></td>
-             <td></td>
-            
-        </tr>
-        <tr>
-            <th>Mercredi</th>
-            <td></td>          
-             <td></td>
-             <td></td>          
-             <td></td>    
-             <td></td>
-             <td></td>
-             <td colspan="2"><center>M102/EGTSA106<br>Elmamouny hicham<br>Salle num1</center></td>
-            
-
-        </tr>
-        <tr>
-             <th>Jeudi</th>
-             <td></td>          
-             <td></td> 
-             <td colspan="2"><center>M102/EGTSA106<br>El Mamouny Hicham<br>Salle Num1</center></td>
-             <td></td>
-             <td></td>
-             <td></td>
-             <td></td>
-        </tr>
-        <tr>
-            <th>Vendredi</th>
-             <td colspan="2"><center>EGTS102<br>Balla Jaouad<br>S9</center></td>  
-             <td colspan="2"><center>EGTS108<br>Chatri Hicham<br>S2</center></td> 
-             <td></td>          
-             <td></td>    
-             <td></td>
-             <td></td>
-
-        </tr>
-        <tr>
-            <th>Samedi</th>
-            <td><br><br><br></td>          
-             <td></td>
-             <td></td>          
-             <td></td>    
-             <td></td>
-             <td></td>
-             <td></td>
-             <td></td>    
-
-
-        </tr>
-       
-
-
-    </table>
-   
-
-
-    
+    <fieldset>
+        <legend><b>Vos coordonnées</b></legend>
+        <label for="name">Nom:</label>
+        <input type="text" id="name" placeholder="votre nom"><br>
+        <label for="prenom">Prenom:</label>
+        <input type="text" id="prenom" placeholder="votre prenom"><br>
+        <label for="date">Date de naissance:</label>
+        <input type="date"><br>
+        <label for="Mail">Mail:</label>
+        <input type="mail" name="mail" id="mail" placeholder="votre mail"><br>
+        <label for="site">Votre site:</label>
+        <input type="text" id="site"><br>
+        <label for="password">Code:</label>
+        <input type="password" id="password"><br>
+        <label for="gender">Genre:</label>
+        <input type="radio" id="gender">Homme
+        <input type="radio" id="gender">Femme<br>
+        <label for="pays">Pays</label>
+        <select id="pays">
+            <option></option>
+            <option>Maroc</option>
+            <option>France</option>
+            <option>Espagne</option>
+            <option>Italie</option>
+            <option>allemagne</option>
+        </select>
+    </fieldset>
+    <fieldset>
+        <legend><b>Vos goûts</b></legend>
+        <input type="checkbox" id="1" >Tarte aux fraise à la crème d'amandes<br>
+        <input type="checkbox" id="1" >Tarte aux prunes<br>
+        <input type="checkbox" id="1" >Tarte rustique aux mirabelles de Lorrain,noisettes et miel<br>
+        <textarea id="2">Décrivez vos goûts en détail</textarea> 
+    </fieldset>
+    <fieldset>
+        <legend><b>Envoyer nous votre photo</b></legend>
+        <input type="file"><br>
+        <input type="submit">
+        <input type="reset">
+    </fieldset>
 </body>
-</html>
